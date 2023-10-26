@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import HNService from '../../services/HNService';
+import loader from './loader.svg';
 import Article from '../Article/Article';
 import './ArticleList.css';
 
@@ -21,7 +22,7 @@ const ArticleList = () => {
     const hours = date.getHours();
     const minutes = date.getMinutes();
     const pm = hours > 12;
-    const time = (pm ? hours - 12 : hours) + ':' + ('0' + minutes).slice(-2) + ' '+ (pm ? 'PM' : 'AM');
+    const time = (pm ? hours - 12 : hours) + ':' + ('0' + minutes).slice(-2) + (pm ? 'pm' : 'am');
     return day + ' ' + time;
   }
 
@@ -29,6 +30,7 @@ const ArticleList = () => {
     return articles.map((article) => 
       <Article 
         title={String(article.title)}
+        url={String(article.url)}
         author={String(article.by)}
         commentCount={String(article.descendants)}
         date={getDateString(article.time)}
@@ -36,9 +38,13 @@ const ArticleList = () => {
     )
   }
 
+  const renderLoader = () => {
+    return <img src={ loader } alt="Loading..." className='loader'/>
+  }
+
   return (
-    <div className="App">
-      { articles ? renderArticleList() : 'Loading...'}
+    <div className="article-list">
+      { articles ? renderArticleList() : renderLoader()}
     </div>
   );
 }
