@@ -6,17 +6,17 @@
 - run `yarn start` - this should open your browser up to `http://localhost:3000/`
 
 ## Basic run through of dev process
-- I'm using an old laptop that needed nope/npm/yarn installed, so setup happened first.
+- I'm using an old laptop that needed nope/npm/yarn installed, so setup happened first
 - Used [Create React App](https://github.com/facebook/create-react-app) to get initial project up and running. Command to add typescript is simply `yarn create react-app my-app --template typescript`
 - Broke out structure to components and service for the API calls
-- Tried out a couple ways to nest the API calls - initially I have the second indidual story query as a separate call that was called from the single Article component. However, I prefer to always pass in info to be as simply read as possible to lower level components so I decided to do all the data prep in the parent ArticleList component.
-- No tests were added, although I'm confident in working with Jest and mocking services.
+- Tried out a couple ways to nest the API calls - initially I had the second individual story query as a separate call that was called from the single Article component. However, I prefer to always pass in info to be as simply read as possible to lower level components so I decided to do all the data prep in the parent ArticleList component
+- No tests were added for time, although I'm confident in working with Jest and mocking services.
 - I added a loader effect to ease the loading effect a bit. I found an svg from [Sam Herbert](https://samherbert.net/svg-loaders/) and optimized it by 91% using an [SVG minifier](https://svgomg.net/)
 - I used header tags to ease accessibility of page and access to links quickly
-- Finally, I added styling. I usually like SCSS for its nesting capabilities but I kept built-in css since the styling wans't that extensive.
+- Finally, I added styling. I usually like SCSS for its nesting capabilities but I kept built-in css since the styling wans't that extensive
 
 ## Notes about code
-- I kept some built-in code like the CWV ability that is currently not having anything passed into it and the testing setup file (it just adds jest).
+- I kept some built-in code like the CWV ability that is currently not having anything passed into it and the testing setup file (it just adds jest)
 - I also kept the out of the box HTML markup and assets in the public folder (I did change the title attribute for tab tracking)
 
 
