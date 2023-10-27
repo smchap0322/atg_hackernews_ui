@@ -1,9 +1,9 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/components/ArticleList/loader.svg":
+/***/ "https://rawcdn.githack.com/smchap0322/atg_hackernews_ui/f08475c8c5664d3b1d72b738131b617ea527d89b/build/static/media/loader.12cdbd502bb6dc6b7a29dfe4cffdd66f.svg":
 /*!***********************************************!*\
-  !*** ./src/components/ArticleList/loader.svg ***!
+  !*** https://rawcdn.githack.com/smchap0322/atg_hackernews_ui/f08475c8c5664d3b1d72b738131b617ea527d89b/build/static/media/loader.12cdbd502bb6dc6b7a29dfe4cffdd66f.svg ***!
   \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -363,7 +363,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _services_HNService__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/HNService */ "./src/services/HNService.tsx");
-/* harmony import */ var _loader_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./loader.svg */ "./src/components/ArticleList/loader.svg");
+/* harmony import */ var _loader_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./loader.svg */ "https://rawcdn.githack.com/smchap0322/atg_hackernews_ui/f08475c8c5664d3b1d72b738131b617ea527d89b/build/static/media/loader.12cdbd502bb6dc6b7a29dfe4cffdd66f.svg");
 /* harmony import */ var _Article_Article__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Article/Article */ "./src/components/Article/Article.tsx");
 /* harmony import */ var _ArticleList_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ArticleList.css */ "./src/components/ArticleList/ArticleList.css");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
