@@ -27,14 +27,18 @@ const ArticleList = () => {
   }
 
   const renderArticleList = () => {
+    // I don't love the wrapping div for the key tracking, but it is to avoid the console react error asking for a key prop.
+    // I did want to add it to props passed to Article component.
     return articles.map((article) => 
-      <Article 
-        title={String(article.title)}
-        url={String(article.url)}
-        author={String(article.by)}
-        commentCount={String(article.descendants)}
-        date={getDateString(article.time)}
-      />
+      <div key={article.id}>
+        <Article
+          title={String(article.title)}
+          url={String(article.url)}
+          author={String(article.by)}
+          commentCount={String(article.descendants)}
+          date={getDateString(article.time)}
+        />
+      </div>
     )
   }
 

@@ -18,6 +18,7 @@
 ## Notes about code
 - I kept some built-in code like the CWV ability that is currently not having anything passed into it and the testing setup file (it just adds jest)
 - I also kept the out of the box HTML markup and assets in the public folder (I did change the title attribute for tab tracking)
+- There was a choice on my part to use simply divs as opposed to a list of stories - this was purely to use headers for accessibility purposes since it is the only content on the page. If there was more content on the page, I would have made this an standard labeled list with each article wrapped in a list item tag.
 
 
 # CREATE REACT APP documentation - not by Sara Chaparro

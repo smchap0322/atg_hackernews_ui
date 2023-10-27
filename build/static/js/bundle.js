@@ -255,18 +255,26 @@ const ArticleList = () => {
     return day + ' ' + time;
   };
   const renderArticleList = () => {
-    return articles.map(article => /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)(_Article_Article__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      title: String(article.title),
-      url: String(article.url),
-      author: String(article.by),
-      commentCount: String(article.descendants),
-      date: getDateString(article.time)
-    }, void 0, false, {
+    return articles.map(article => /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)("div", {
+      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)(_Article_Article__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        title: String(article.title),
+        url: String(article.url),
+        author: String(article.by),
+        commentCount: String(article.descendants),
+        date: getDateString(article.time)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 9
+      }, undefined)
+    }, article.id, false, {
       fileName: _jsxFileName,
       lineNumber: 31,
       columnNumber: 7
     }, undefined));
   };
+
+  //made this change to get a working compiles JS that didn't require a local asset for gist submission, but the local svg works if running this as a repo
   const renderLoader = () => {
     // return <img src={ loader } alt="Loading..." className='loader'/>
     return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)("img", {
@@ -275,7 +283,7 @@ const ArticleList = () => {
       className: "loader"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 46,
       columnNumber: 12
     }, undefined);
   };
@@ -284,7 +292,7 @@ const ArticleList = () => {
     children: articles ? renderArticleList() : renderLoader()
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 47,
+    lineNumber: 50,
     columnNumber: 5
   }, undefined);
 };
@@ -41676,7 +41684,7 @@ module.exports = parent;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("88c22447a91b358adc78")
+/******/ 		__webpack_require__.h = () => ("240dc128115366a9a113")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
