@@ -38,8 +38,10 @@ const ArticleList = () => {
     )
   }
 
+  //made this change to get a working compiles JS that didn't require a local asset for gist submission, but the local svg works if running this as a repo
   const renderLoader = () => {
-    return <img src={ loader } alt="Loading..." className='loader'/>
+    // return <img src={ loader } alt="Loading..." className='loader'/>
+    return <img src='https://samherbert.net/svg-loaders/svg-loaders/grid.svg' alt='Loading...' className='loader'/>
   }
 
   return (

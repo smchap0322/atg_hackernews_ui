@@ -1,145 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "https://rawcdn.githack.com/smchap0322/atg_hackernews_ui/f08475c8c5664d3b1d72b738131b617ea527d89b/build/static/media/loader.12cdbd502bb6dc6b7a29dfe4cffdd66f.svg":
-/*!***********************************************!*\
-  !*** https://rawcdn.githack.com/smchap0322/atg_hackernews_ui/f08475c8c5664d3b1d72b738131b617ea527d89b/build/static/media/loader.12cdbd502bb6dc6b7a29dfe4cffdd66f.svg ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   ReactComponent: () => (/* binding */ ForwardRef),
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _circle, _circle2, _circle3, _circle4, _circle5, _circle6, _circle7, _circle8, _circle9;
-function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function SvgLoader({
-  title,
-  titleId,
-  ...props
-}, svgRef) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
-    width: 105,
-    height: 105,
-    xmlns: "http://www.w3.org/2000/svg",
-    fill: "#fff",
-    ref: svgRef,
-    "aria-labelledby": titleId
-  }, props), title ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
-    id: titleId
-  }, title) : null, _circle || (_circle = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-    cx: 12.5,
-    cy: 12.5,
-    r: 12.5
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("animate", {
-    attributeName: "fill-opacity",
-    begin: "0s",
-    dur: "1s",
-    values: "1;.2;1",
-    calcMode: "linear",
-    repeatCount: "indefinite"
-  }))), _circle2 || (_circle2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-    cx: 12.5,
-    cy: 52.5,
-    r: 12.5,
-    fillOpacity: 0.5
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("animate", {
-    attributeName: "fill-opacity",
-    begin: "100ms",
-    dur: "1s",
-    values: "1;.2;1",
-    calcMode: "linear",
-    repeatCount: "indefinite"
-  }))), _circle3 || (_circle3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-    cx: 52.5,
-    cy: 12.5,
-    r: 12.5
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("animate", {
-    attributeName: "fill-opacity",
-    begin: "300ms",
-    dur: "1s",
-    values: "1;.2;1",
-    calcMode: "linear",
-    repeatCount: "indefinite"
-  }))), _circle4 || (_circle4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-    cx: 52.5,
-    cy: 52.5,
-    r: 12.5
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("animate", {
-    attributeName: "fill-opacity",
-    begin: "600ms",
-    dur: "1s",
-    values: "1;.2;1",
-    calcMode: "linear",
-    repeatCount: "indefinite"
-  }))), _circle5 || (_circle5 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-    cx: 92.5,
-    cy: 12.5,
-    r: 12.5
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("animate", {
-    attributeName: "fill-opacity",
-    begin: "800ms",
-    dur: "1s",
-    values: "1;.2;1",
-    calcMode: "linear",
-    repeatCount: "indefinite"
-  }))), _circle6 || (_circle6 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-    cx: 92.5,
-    cy: 52.5,
-    r: 12.5
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("animate", {
-    attributeName: "fill-opacity",
-    begin: "400ms",
-    dur: "1s",
-    values: "1;.2;1",
-    calcMode: "linear",
-    repeatCount: "indefinite"
-  }))), _circle7 || (_circle7 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-    cx: 12.5,
-    cy: 92.5,
-    r: 12.5
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("animate", {
-    attributeName: "fill-opacity",
-    begin: "700ms",
-    dur: "1s",
-    values: "1;.2;1",
-    calcMode: "linear",
-    repeatCount: "indefinite"
-  }))), _circle8 || (_circle8 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-    cx: 52.5,
-    cy: 92.5,
-    r: 12.5
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("animate", {
-    attributeName: "fill-opacity",
-    begin: "500ms",
-    dur: "1s",
-    values: "1;.2;1",
-    calcMode: "linear",
-    repeatCount: "indefinite"
-  }))), _circle9 || (_circle9 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
-    cx: 92.5,
-    cy: 92.5,
-    r: 12.5
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("animate", {
-    attributeName: "fill-opacity",
-    begin: "200ms",
-    dur: "1s",
-    values: "1;.2;1",
-    calcMode: "linear",
-    repeatCount: "indefinite"
-  }))));
-}
-const ForwardRef = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(SvgLoader);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/media/loader.12cdbd502bb6dc6b7a29dfe4cffdd66f.svg");
-
-
-/***/ }),
-
 /***/ "./src/App.tsx":
 /*!*********************!*\
   !*** ./src/App.tsx ***!
@@ -363,16 +224,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _services_HNService__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/HNService */ "./src/services/HNService.tsx");
-/* harmony import */ var _loader_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./loader.svg */ "https://rawcdn.githack.com/smchap0322/atg_hackernews_ui/f08475c8c5664d3b1d72b738131b617ea527d89b/build/static/media/loader.12cdbd502bb6dc6b7a29dfe4cffdd66f.svg");
-/* harmony import */ var _Article_Article__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Article/Article */ "./src/components/Article/Article.tsx");
-/* harmony import */ var _ArticleList_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ArticleList.css */ "./src/components/ArticleList/ArticleList.css");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var _Article_Article__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Article/Article */ "./src/components/Article/Article.tsx");
+/* harmony import */ var _ArticleList_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ArticleList.css */ "./src/components/ArticleList/ArticleList.css");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
 
 var _jsxFileName = "/Users/sarachaparrodiaz/Documents/projects/interviews/atg/atg_hackernews_ui/src/components/ArticleList/ArticleList.tsx",
   _s = __webpack_require__.$Refresh$.signature();
-
 
 
 
@@ -396,7 +255,7 @@ const ArticleList = () => {
     return day + ' ' + time;
   };
   const renderArticleList = () => {
-    return articles.map(article => /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(_Article_Article__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    return articles.map(article => /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)(_Article_Article__WEBPACK_IMPORTED_MODULE_2__["default"], {
       title: String(article.title),
       url: String(article.url),
       author: String(article.by),
@@ -409,22 +268,23 @@ const ArticleList = () => {
     }, undefined));
   };
   const renderLoader = () => {
-    return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)("img", {
-      src: _loader_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
+    // return <img src={ loader } alt="Loading..." className='loader'/>
+    return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)("img", {
+      src: "https://samherbert.net/svg-loaders/svg-loaders/grid.svg",
       alt: "Loading...",
       className: "loader"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 43,
       columnNumber: 12
     }, undefined);
   };
-  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)("div", {
+  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)("div", {
     className: "article-list",
     children: articles ? renderArticleList() : renderLoader()
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 46,
+    lineNumber: 47,
     columnNumber: 5
   }, undefined);
 };
@@ -41816,7 +41676,7 @@ module.exports = parent;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("3cd8cf00a76de3ebcbff")
+/******/ 		__webpack_require__.h = () => ("88c22447a91b358adc78")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
